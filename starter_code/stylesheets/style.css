@@ -9,6 +9,11 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+/*ME HE VISTO TODAS LAS CLASES DE CSS DE NUEVO PARA EL LAB DE CLONAR INSTAGRAM,
+POR LO QUE ESTA SEMANA SEGUIRÉ TRABAJANDO EN ESTE LAB PARA INTENTAR MEJORARLO. 
+*/
+
+
 @media (max-width: 768px) {
 
 
@@ -17,10 +22,16 @@ body {
     
 }
 
+nav {
+    background-color: #540B51;
+    height: 30vh;
+}
+
 h1 {
     font-size: 100px;
     text-align: center;
     color: white;
+    display: block;
     
 }
 
@@ -36,7 +47,7 @@ nav {
 
 header {
     display: flex;
-    width: 120vh;
+    width: 70vh;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 35px;
